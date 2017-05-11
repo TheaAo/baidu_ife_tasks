@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <title>baidu_ife_html/css_task1</title>
+        <base href="#">
+        <link rel="stylesheet" href="#">
+    </head>
+    <body>
+        <h1>网站一级标题</h1>
+        <nav>
+            <ul>
+                <li><a href="#">navigation link 1</a></li>
+                <li><a href="#">navigation link 2</a></li>
+                <li><a href="#">navigation link 3</a></li>
+                <li><a href="#">navigation link 4</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>文章一级标题</h2>
+                <h3>文章二级标题</h3>
+                <p>author <time>2017-05</time></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste dolorum, cum nemo veniam dicta id vero possimus saepe alias dolores laboriosam <br>consectetur quas quae distinctio delectus. <br>Aliquam eos error itaque!lorem
+                Lorem ipsum dolor sit amet, <a href="#">Baidu IFE</a>consectetur adipisicing elit. Ipsam sunt aut, aliquid laudantium quae officiis dignissimos possimus architecto non sint magni, quam ut modi eum ipsa quia esse libero minus.</p>
+                <blockquote>
+                    Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipisicing elit. Nostrum libero sed porro cumque odit <em>temporibus</em> suscipit, autem voluptas nobis vitae, consectetur veniam aperiam nemo nesciunt ducimus id, <u>corporis</u>. Nostrum, <del>provident</del>!
+                </blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat odio provident veniam cumque hic architecto nesciunt eius aspernatur id doloribus praesentium nihil voluptatem, omnis sint alias atque dicta suscipit, error.</p>
+                <img src="188H.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eum et cum earum temporibus ullam repellat fuga, quo eligendi dolore eaque quae ipsum, vitae libero aliquid nulla dignissimos necessitatibus debitis!</p>
+                <h3>另一个文章二级标题</h3>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                </ul>
+                <h4>另一个文章三级标题</h4>
+                <figure>
+                    <figcaption>图片说明</figcaption>
+                    <img src="188H.jpg">
+                </figure>
+                <figure>
+                    <figcaption>图片说明</figcaption>
+                    <img src="188H.jpg">
+                </figure>
+                <figure>
+                    <figcaption>图片说明</figcaption>
+                    <img src="188H.jpg">
+                </figure>
+            </article>
+            <section>
+                <h2>另一个文章一级标题</h2>
+                <h3>文章二级标题</h3>
+                <h4>文章三级标题</h4>
+                <h5>不常用的文章四级标题</h5>
+                <h6>很难用到的文章五级标题</h6>
+                <section>
+                    <p>来个有序列表</p>
+                    <ol>
+                        <li>rank 1</li>
+                        <li>rank 2</li>
+                        <li>rank 3</li>
+                    </ol>
+                    <p>再来个描述列表</p>
+                    <dl>
+                        <dt>HTML 描述列表</dt>
+                        <dd>一个包含术语定义以及描述的列表，通常用于展示词汇表或者元数据 (键-值对列表)</dd>
+                        <dt>百度前端技术学院</dt>
+                        <dd>面向大学生的前端技术学习平台,由百度创办的免费前端技术学习实践、交流、分享平台</dd>
+                    </dl>
+                    <p>看看表格</p>
+                    <table border="1">
+                        <caption>表格标题</caption>
+                        <thead>
+                            <tr>
+                                <td>表头</td>
+                                <td>表头</td>
+                                <td>表头</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>内容单元格</td>
+                                <td>内容单元格</td>
+                                <td><a href="#">option</a></td>
+                            </tr>
+                            <tr>
+                                <td>content</td>
+                                <td>content</td>
+                                <td><a href="#">option</a></td>
+                            </tr>
+                            <tr>
+                                <td>content</td>
+                                <td>content</td>
+                                <td><a href="#">option</a></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>all</td>
+                                <td colspan="2">1000</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+            </section>    
+        </main>       
+        <aside>
+            <h2>这是侧边栏题目</h2>
+            <h3>侧栏注册窗口标题</h3>
+            <form >
+                <fieldset>
+                    <legend>基本信息</legend>
+                    <span>性别：</span>
+                    <input type="radio" name="male"><label for="male">男</label>
+                    <input type="radio" name="female"><label for="female">女</label>
+                    <br>
+                    <span>城市：</span>
+                    <select name="city" id="city">
+                        <option value="Beijing">北京</option>
+                        <option value="Shanghai">上海</option>
+                        <option value="Guangzhou">广州</option>
+                    </select>
+                    <br>
+                    <span>爱好：</span>
+                    <input type="checkbox" name="sports"><label for="sports">运动</label>
+                    <input type="checkbox" name="art"><label for="art">艺术</label>
+                    <input type="checkbox" name="science"><label for="science">科学</label>
+                    <br>
+                    <span>个人描述：</span><br>
+                    <textarea name="selfdescription" id="selfdescription" cols="30" rows="10" placeholder="这是多行输入文本框，请在此输入您的个人描述"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>邮箱和密码</legend>
+                    <span>邮箱地址</span>
+                    <input type="text" name="email-address" placeholder="请输入正确格式的邮箱地址">
+                    <span>密码</span>
+                    <input type="password" name="password" maxlength="12" minlength="6" placeholder="密码长度为6到12位" required="required">
+                    重复输入
+                    <input type="password" name="password" maxlength="12" minlength="6" placeholder="请重复输入密码进行确认" required="required">
+                </fieldset>
+                <button>确认提交</button>
+            </form>
+        </aside>
+        <hr>
+        <footer><small>版权所有</small></footer>
+        <script></script>
+        <noscript>浏览器不支持脚本运行</noscript>
+    </body>
+</html>

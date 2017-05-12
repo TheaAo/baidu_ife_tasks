@@ -1,5 +1,9 @@
-# [任务一：零基础HTML编码]
-(http://ife.baidu.com/course/detail/id/90)
+# 任务一：零基础HTML编码
+
+[题目](http://ife.baidu.com/course/detail/id/90)
+[预览](https://theaao.github.io/baidu_ife_tasks/bing_academy/task1/task1.html)
+[代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task1/task1.html)
+
 ## 任务目的
 
 - 了解HTML的定义、概念、发展简史
@@ -17,19 +21,19 @@
 
 ### 1. 表格
 
-|表格标签|
-|:--------:|
+|表格标签|表格标签|
+|:--------:|:---:|
 |table|caption|
 |colgroup|col|
 |thead|tfoot|
 |tbody|th|
 |tr|td|
 
-**caption**
+####caption####
 
 表格的标题，通常为\<table\>的第一个子元素。注意和\<figcaption\>区分，\<figure\>代表一段独立的引用单元，\<figcaption\> 是对这段单元的说明。
 
-**colgroup**
+####colgroup####
 
 允许内容：
 
@@ -40,15 +44,15 @@ span 属性：
 
 正整数值，表示其横跨的列数。
 
-**col**
+####col####
 
 通常位于 colgroup 元素内，是一个空元素。span 属性取值和意义同 colgroup。
 
-**结构化表格**
+####结构化表格####
 
 利用 thead、tbody、tfoot、th 结构化表格。th 与 td 仅是语义上的区别，表现上区别不大。
 
-**表格的 accessibility**
+####表格的 accessibility####
 
 合理设置属性能够帮助屏幕阅读器读取表格，增加表格的易用性。
 
@@ -80,11 +84,11 @@ type="radio" 的 input 元素，不同选项的 name 值相同，id 值不同才
 
 这是一个空元素，全局属性 name 在该元素中具有特殊语义。只记录了 name 和 content 属性相关的笔记，更多关于该标签的信息见 [\<meta\> - HTML](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta)
 
-**content**
+####content####
 
 基于内容，该属性为 http-equiv 或 name 属性提供了与其相关的值的定义。
 
-**name**
+####name####
 
 This document-level metadata name is associated with a value, contained by the content attribute. The possible values for the name element are, with their associated value, stored via the content attribute:
 
@@ -93,9 +97,11 @@ This document-level metadata name is associated with a value, contained by the c
 - generator, 自由格式，包含生成该页面的软件标识符；
 - keywords, 用逗号分隔的字符串，页面关键词；
 - viewport, 用于移动设备，给出视口初始值的线索。
+
     可取的值：
-    |Value |  可能值 |描述|
-    |:-----|:--------|:---|
+
+    |Value |可能值 |描述|
+    |:-----|:--------|:------|
     |width|一个正整数或者字符串 device-width|defines the width, in pixels, of the viewport|
     |height|一个正整数或者字符串 device-height|defines the height, in pixels, of the viewport|
     |initial-scale|一个0.0 到10.0之间的正数|defines the ratio between the device width (device-width in portrait mode or device-height in landscape mode) and the viewport size.|

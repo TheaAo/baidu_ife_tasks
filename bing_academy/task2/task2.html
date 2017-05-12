@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <title>baidu_ife_html/css_task2</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            html,body{
+                margin: 0;
+                font-family: Helvetic, "Microsoft YaHei", STHeiti, sans-serif;
+                width: 100%;
+                font-size: 10px;
+                background-color: #000000;
+            }
+            .wrapper {
+                background-color: #eeeeee;
+                margin: 0;
+                padding: 1rem 0;
+                width: 90%;
+                margin:auto;
+            }
+            header {
+                background-color: #333333; 
+                width: 90%;
+                margin: auto;
+                height: 6rem;
+                color: #ffffff;
+                position: relative;
+            }
+            article,aside {
+                background-color: #ffffff;
+                width: 90%;
+                margin: 2rem auto;
+                padding: 2rem;
+            }
+            header h1 {
+                display: inline-block;
+                color: red;
+                margin: 1rem 3rem;
+                line-height: 2;
+                font-size: 2.5rem;
+            }
+            nav {
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                right: 1rem;
+                height: 6rem;
+            }
+            nav ul {
+                color: black;
+            }
+            nav li{
+                float: left;
+                font-size: 1rem;
+                margin: 1.5rem .5rem;
+                list-style-position: inside;
+            }
+            nav a {
+                text-decoration: none;
+                margin-left: -0.5rem; 
+                color: #ffffff;
+            }
+            nav a:hover {
+                color: #cccccc;
+            }
+            h2 {
+                font-size: 2.2rem;
+            }
+            h3 {
+                font-size: 1.8rem;
+                color: #555555;
+            }
+            p,li,blockquote,figcaption,dt,dd,table,div,span{
+                font-size: 1.6rem;
+            }
+            p{
+                text-indent: 2rem;
+            }
+            small {
+                font-size: 1.2rem;
+                color: #555555;
+            }
+            figure {
+                width: 20rem;
+                height: 18rem;
+                padding: 1rem;
+                border: solid 1px #bbbbbb;
+            }
+            figcaption{
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            img {
+                max-width: 100%;
+            }
+            table {
+                border-collapse: collapse;
+                border: solid 1px #dddddd;
+                width: 100%;
+                margin: auto;
+                font-size: 1.2rem;
+            }
+            thead {
+                background-color: #000000;
+                color: #ffffff;
+            }
+            tfoot {
+                background-color: #dddddd;
+                font-weight: bold; 
+            }
+            aside h3{
+                color: #000000;
+                padding: 0 2rem;
+                border-left: solid .4rem #dddddd;
+                line-height: 2;
+            }
+            .form-item {
+                margin: .5rem 0;
+            }
+            .form-item > * {
+                width: 40%;
+                display: inline-block;
+                margin: 0;
+                font-size: 1.2rem;
+                vertical-align: top;
+            }
+            .item-name {
+                padding: 0 .5rem;
+                text-align: right;
+            }
+            .item-value {
+                text-align: left;
+            }
+            button {
+                width: 100%;
+                height: 3rem;
+                margin: 1rem auto;
+                padding: .2rem;
+                background-color: #0000bb;
+                color: #ffffff;
+                font-size: 1.6rem;
+                border-radius: 1rem;
+            }
+            footer {
+                width: 90%;
+                height: 6rem;
+                text-align: center;
+                color: #ffffff;
+                margin: auto;
+                padding: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Bai<img src="baidulogo.svg" alt="baidu logo" width="36px">百度</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">导航链接一</a></li>
+                    <li><a href="#">导航链接二</a></li>
+                    <li><a href="#">导航链接三</a></li>
+                    <li><a href="#">导航链接四</a></li>
+                </ul>
+        </nav>
+        </header>
+        <div class="wrapper">
+            <article>
+                <h2>文章一级标题</h2>
+                <h3>文章二级标题</h3>
+                <small>文章作者 文章发表时间</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste dolorum, cum nemo veniam dicta id vero possimus saepe alias dolores laboriosam <br>consectetur quas quae distinctio delectus. <br>Aliquam eos error itaque!lorem
+                Lorem ipsum dolor sit amet, <a href="#">Baidu IFE</a>consectetur adipisicing elit. Ipsam sunt aut, aliquid laudantium quae officiis dignissimos possimus architecto non sint magni, quam ut modi eum ipsa quia esse libero minus.</p>
+                <blockquote>
+                    Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipisicing elit. Nostrum libero sed porro cumque odit <em>temporibus</em> suscipit, autem voluptas nobis vitae, consectetur veniam aperiam nemo nesciunt ducimus id, <u>corporis</u>. Nostrum, <del>provident</del>!
+                </blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat odio provident veniam cumque hic architecto nesciunt eius aspernatur id doloribus praesentium nihil voluptatem, omnis sint alias atque dicta suscipit, error.</p>
+                <img src="188H.jpg" alt="beautiful picture">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eum et cum earum temporibus ullam repellat fuga, quo eligendi dolore eaque quae ipsum, vitae libero aliquid nulla dignissimos necessitatibus debitis!</p>
+            </article>
+            <article>
+                <h2>另一篇文章一级标题</h2>
+                <h3>文章二级标题</h3>
+                <small>文章作者 文章发表时间</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolorum mollitia deleniti, quos, voluptas earum facilis alias dicta modi nesciunt dolor fugit illo corrupti accusamus similique eligendi ipsum. Alias, debitis.
+                </p>
+                <img src="188H.jpg" alt="beautiful picture">
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                </ul>
+            </article>
+            <article>
+                <h2>图片</h2>
+                <figure>
+                    <figcaption>图片说明</figcaption>
+                    <img src="188H.jpg" alt="beautiful picture">
+                </figure>
+                <figure>
+                    <figcaption>图片说明</figcaption>
+                    <img src="188H.jpg" alt="beautiful picture">
+                </figure>
+                <figure>
+                    <figcaption>图片说明</figcaption>
+                    <img src="188H.jpg" alt="beautiful picture">
+                </figure>
+            </article>
+            <article>
+                <h2>最后一篇文章一级标题</h2>
+                <h3>文章二级标题</h3>
+                <small>文章作者 文章发表时间</small>
+                <p>来个有序列表</p>
+                <ol>
+                    <li>rank 1</li>
+                    <li>rank 2</li>
+                    <li>rank 3</li>
+                </ol>
+                <p>再来个描述列表</p>
+                <dl>
+                    <dt>HTML 描述列表</dt>
+                    <dd>一个包含术语定义以及描述的列表，通常用于展示词汇表或者元数据 (键-值对列表)</dd>
+                    <dt>百度前端技术学院</dt>
+                    <dd>面向大学生的前端技术学习平台,由百度创办的免费前端技术学习实践、交流、分享平台</dd>
+                </dl>
+                <p>看看表格</p>
+                <table border="1">
+                    <caption>表格标题</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" id="th1">表头</th>
+                            <th scope="col" id="th2">表头</th>
+                            <th scope="col" id="th3">表头</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td headers="th1">内容单元格</td>
+                            <td headers="th2">内容单元格</td>
+                            <td headers="th3"><a href="#">option</a></td>
+                        </tr>
+                        <tr>
+                            <td headers="th1">content</td>
+                            <td headers="th2">content</td>
+                            <td headers="th3"><a href="#">option</a></td>
+                        </tr>
+                        <tr>
+                            <td headers="th1">content</td>
+                            <td headers="th2">content</td>
+                            <td headers="th3"><a href="#">option</a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>all</td>
+                            <td colspan="2">1000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article> 
+            <aside>
+                <h3>这里以后是一个侧栏，这是侧栏标题</h3>
+                <form>
+                <fieldset>
+                    <legend>邮箱和密码</legend>
+                    <div class="form-item">
+                        <div class="item-name">邮箱地址</div>
+                        <input type="text" id="email-address" name="email-address" placeholder="请输入正确格式的邮箱地址" class="item-value" required> 
+                    </div>
+                    <div class="form-item">
+                        <div class="item-name">请输入密码</div>
+                        <input type="password" name="password" minlength="6" maxlength="16" placeholder="密码为6-16位英文数字" class="item-value" required>
+                    </div>
+                    <div class="form-item">
+                        <div class="item-name">请重复输入密码</div>
+                        <input type="password" name="password" minlength="6" maxlength="16" placeholder="输入之前的密码以便验证" class="item-value" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>基本信息</legend>
+                    <div class="form-item">
+                        <div class="item-name">性别</div>
+                        <div class="item-value">
+                            <input type="radio" name="sex" id="male">
+                            <label for="male">男</label>
+                            <input type="radio" name="sex" id="female">
+                            <label for="female">女</label>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="item-name">城市</div>
+                        <select class="item-value" name="city">
+                            <option value="Beijing">北京</option>
+                            <option value="Shanghai">上海</option>
+                            <option value="Guangzhou">广州</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <div class="item-name">爱好</div>
+                        <div class="item-value">
+                            <input type="checkbox" name="hobbies" id="sports">
+                            <label for="sports">运动</label>
+                            <input type="checkbox" name="hobbies" id="arts">
+                            <label for="arts">艺术</label>
+                            <input type="checkbox" name="hobbies" id="science">
+                            <label for="sciences">科学</label>                         
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="item-name">个人描述</div>
+                        <textarea class="item-value" name="selfdescription" placeholder="请在此输入您的个人描述" cols="50" rows="10"></textarea>
+                    </div>
+                </fieldset>
+                <button>确认提交</button>
+                </form>
+            </aside>
+        </div>       
+        <footer>版权所有</footer>
+        <script></script>
+        <noscript>浏览器不支持脚本运行</noscript>
+    </body>
+</html>

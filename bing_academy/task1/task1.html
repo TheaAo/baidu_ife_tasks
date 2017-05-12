@@ -75,26 +75,26 @@
                         <caption>表格标题</caption>
                         <thead>
                             <tr>
-                                <td>表头</td>
-                                <td>表头</td>
-                                <td>表头</td>
+                                <th scope="col" id="th1">表头</th>
+                                <th scope="col" id="th2">表头</th>
+                                <th scope="col" id="th3">表头</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>内容单元格</td>
-                                <td>内容单元格</td>
-                                <td><a href="#">option</a></td>
+                                <td headers="th1">内容单元格</td>
+                                <td headers="th2">内容单元格</td>
+                                <td headers="th3"><a href="#">option</a></td>
                             </tr>
                             <tr>
-                                <td>content</td>
-                                <td>content</td>
-                                <td><a href="#">option</a></td>
+                                <td headers="th1">content</td>
+                                <td headers="th2">content</td>
+                                <td headers="th3"><a href="#">option</a></td>
                             </tr>
                             <tr>
-                                <td>content</td>
-                                <td>content</td>
-                                <td><a href="#">option</a></td>
+                                <td headers="th1">content</td>
+                                <td headers="th2">content</td>
+                                <td headers="th3"><a href="#">option</a></td>
                             </tr>
                         </tbody>
                         <tfoot>
@@ -113,31 +113,31 @@
             <form >
                 <fieldset>
                     <legend>基本信息</legend>
-                    <span>性别：</span>
-                    <input type="radio" name="male"><label for="male">男</label>
-                    <input type="radio" name="female"><label for="female">女</label>
+                    性别：
+                    <input type="radio" name="sex" id="male"><label for="male">男</label>
+                    <input type="radio" name="sex" id="female"><label for="female">女</label>
                     <br>
-                    <span>城市：</span>
+                    <label for="city">城市：</label >
                     <select name="city" id="city">
                         <option value="Beijing">北京</option>
                         <option value="Shanghai">上海</option>
                         <option value="Guangzhou">广州</option>
                     </select>
                     <br>
-                    <span>爱好：</span>
+                    爱好：
                     <input type="checkbox" name="sports"><label for="sports">运动</label>
                     <input type="checkbox" name="art"><label for="art">艺术</label>
                     <input type="checkbox" name="science"><label for="science">科学</label>
                     <br>
-                    <span>个人描述：</span><br>
+                    <label for="selfdescription">个人描述：</label><br>
                     <textarea name="selfdescription" id="selfdescription" cols="30" rows="10" placeholder="这是多行输入文本框，请在此输入您的个人描述"></textarea>
                 </fieldset>
                 <fieldset>
                     <legend>邮箱和密码</legend>
-                    <span>邮箱地址</span>
-                    <input type="text" name="email-address" placeholder="请输入正确格式的邮箱地址">
-                    <span>密码</span>
-                    <input type="password" name="password" maxlength="12" minlength="6" placeholder="密码长度为6到12位" required="required">
+                    <label for="email-address">邮箱地址</label>
+                    <input type="text" id="email-address" name="email-address" placeholder="请输入正确格式的邮箱地址">
+                    <label for="password">密码</label>
+                    <input type="password" id="password" name="password" maxlength="12" minlength="6" placeholder="密码长度为6到12位" required="required">
                     重复输入
                     <input type="password" name="password" maxlength="12" minlength="6" placeholder="请重复输入密码进行确认" required="required">
                 </fieldset>

@@ -30,6 +30,12 @@
 
 CSS中的像素为逻辑像素，与屏幕实际像素并不一定等同。但由于 rem 是基于同一根节点，因此被设置的各元素是等比例的。
 
+### 阴影
+
+块阴影 box-shadow
+
+文本阴影 text-shadow
+
 ### vertical-align
 
 除了常用的水平方向上的设置 text-align 的 left/right/center/justify，还可以进行垂直方向上的对齐设置 vertical-align, 该属性可取值有
@@ -55,15 +61,22 @@ vertical-align 的设置对象的要被对齐的元素而不是他们的父元�
 
 综合利用 CSS 属性选择器及伪类和伪元素。
 
-在最后进行表单的样式设置时，在设置表单条目的对齐方式上卡了一下。最终添加了两个类，将表单条目分为两个部分，分别进行对齐设置，得以解决。翻阅其他同学的笔记，发现其他有意思的方法：
+在最后进行表单的样式设置时，在设置表单条目的对齐方式上卡了一下。最终添加了两个类，将表单条目分为两个 inline-block 的部分，分别进行对齐设置，得以解决。翻阅其他同学的笔记，发现其他有意思的方法：
 
 1. 利用浮动
 2. 利用绝对定位
+3. 在 form 里利用 table 定位
+4. 将元素 display 设置为 tablerow
+
+以上的方法都是将表单条目的说明和输入部分分离，分别进行对齐设置；只是在如何使两部分同处一行的实现方式上有不同。浮动、绝对定位和改变元素的 display 值都是可取的，但直接使用 table 元素进行定位似乎有违语义化的要求，我认为不可取。
 
 需要注意的是，浮动和绝对定位都会使元素脱离文档流，导致父元素包裹不住。需要做一定处理。
+
 
 ## 在线学习参考资料
 
 [MDN HTML 入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
+
 [MDN CSS 入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+
 [慕课 HTML+CSS 基础教程视频](http://www.imooc.com/learn/9)

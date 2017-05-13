@@ -29,11 +29,11 @@
 |tbody|th|
 |tr|td|
 
-####caption####
+#### caption
 
 表格的标题，通常为\<table\>的第一个子元素。注意和\<figcaption\>区分，\<figure\>代表一段独立的引用单元，\<figcaption\> 是对这段单元的说明。
 
-####colgroup####
+#### colgroup
 
 允许内容：
 
@@ -44,15 +44,15 @@ span 属性：
 
 正整数值，表示其横跨的列数。
 
-####col####
+#### col
 
 通常位于 colgroup 元素内，是一个空元素。span 属性取值和意义同 colgroup。
 
-####结构化表格####
+#### 结构化表格
 
 利用 thead、tbody、tfoot、th 结构化表格。th 与 td 仅是语义上的区别，表现上区别不大。
 
-####表格的 accessibility####
+#### 表格的 accessibility
 
 合理设置属性能够帮助屏幕阅读器读取表格，增加表格的易用性。
 

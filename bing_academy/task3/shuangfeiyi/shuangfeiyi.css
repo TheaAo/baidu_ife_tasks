@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
-* @Date:   2017-05-15 11:29:27
+* @Date:   2017-05-15 10:25:33
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-05-15 12:11:02
+* @Last Modified time: 2017-05-15 14:08:32
 */
 * {
     box-sizing: border-box;
@@ -13,26 +13,36 @@ html,body {
 .wrapper,.left_column,.main_column,.right_column {
     border: solid 1px #999; 
     padding: 20px;
-    vertical-align: top;
 }
 .wrapper {
     background-color: #eee;
     position: relative;
+    overflow: auto;  // 清除浮动的技术之一
 }
-
+// 清除浮动的技术之二
+.wrapper::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.float {
+    float: left;
+    width: 100%;
+}
 .column {
     background-color: #fff;
-    position: relative;
+}
+.main_column {
+    margin: 0 142px 0 222px;
 }
 .left_column {
     width: 202px;
     text-align: center;
-}
-.main_column {
-    margin: 0 162px 0 222px;
+    margin-left: -100%;
 }
 .right_column {
     width: 122px;
+    margin-left: -122px;
 }
 img {
     width: 80px;

@@ -1,0 +1,48 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-15 08:15:57
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-15 12:46:50
+*/
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+}
+.wrapper,.left_column,.main_column,.right_column {
+    border: solid 1px #999; 
+    padding: 20px;
+    vertical-align: top;
+}
+.wrapper {
+    background-color: #eee;
+}
+.column {
+    background-color: #fff;
+    display: inline-block;
+}
+.left_column {
+    width: 202px;
+    text-align: center;
+}
+.main_column {
+    width: calc(100% - 374px);
+    margin: 0 20px;
+}
+.right_column {
+    width: 122px;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+figure {
+    width: 80px;
+    height: 120px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+figcaption {
+    text-align: center;
+}

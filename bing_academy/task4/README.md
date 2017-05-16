@@ -26,9 +26,9 @@
 
 ### 垂直居中
 
-在 flexbox 出现之前，垂直居中的实现比较麻烦。但是前人的智慧是无穷的，大家依然找出了多种多样的实现居中的方法。本次任务中，我一共通过八种方式实现了垂直居中，我将它们分为三类——
+在 flexbox 出现之前，垂直居中的实现比较麻烦。但是前人的智慧是无穷的，大家依然找出了多种多样的实现居中的方法。本次任务中，我一共通过九种方式实现了垂直居中，我将它们分为三类——
 
-#### 通过定位实现居中
+#### 一.通过定位实现居中
 
 所有方法的 HTML 结构如下，如有调整将单独列出。
 
@@ -119,7 +119,7 @@ CSS 样式
 
 [具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_6.html)
 
-#### 通过内外边距实现居中
+#### 二.通过内外边距实现居中
 
 所谓居中，不过是元素上边框至父元素上边框距离与元素下边框至父元素下边框距离相等。
 
@@ -185,7 +185,7 @@ CSS 样式
 
 [具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_4.html)
 
-#### 通过改变 display 实现居中
+#### 三.通过改变 display 实现居中
 
 ##### 1.display: inline-block;
 

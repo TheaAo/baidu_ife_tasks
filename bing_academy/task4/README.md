@@ -10,9 +10,9 @@
 
 - 实践HTML/CSS布局方式
  
--深入了解position等CSS属性
+- 深入了解position等CSS属性
 
-最终效果图：
+最终要求效果图：
 
 ![任务四最终要求效果图](task_4.png)
 

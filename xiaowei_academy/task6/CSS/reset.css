@@ -2,18 +2,19 @@
 * @Author: Administrator
 * @Date:   2017-05-17 10:28:34
 * @Last Modified by:   Thea Ao
-* @Last Modified time: 2017-05-17 17:52:43
+* @Last Modified time: 2017-05-20 22:23:41
 */
-body,div,section,article,p,header,footer,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6 {
+body,div,section,article,p,header,footer,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,figure,blockquote {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: normal;
 }
 body {
-    width: 960px;
+    width: 980px;
     height: 1386px;
     background-color: #ffffff;
-    padding: 0 44px;
+    padding: 0 43px;
     font-family: SimHei, sans-serif;
     margin: 0 auto;
     border: solid 1px #938e8c;
@@ -25,4 +26,7 @@ hr {
     height: 2px;
     border-style: none;
     margin: 0;
+}
+small {
+    font-size: 12px;
 }

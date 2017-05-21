@@ -1,8 +1,8 @@
 # 任务一：零基础HTML编码
 
 [题目](http://ife.baidu.com/course/detail/id/90)
-[预览](https://theaao.github.io/baidu_ife_tasks/bing_academy/task1/task1.html)
-[代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task1/task1.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task1/task1.html)
+[代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task1/task1.html)
 
 ## 任务目的
 

@@ -2,9 +2,9 @@
 
 [题目](http://ife.baidu.com/course/detail/id/95)
 
-[预览](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_1.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_1.html)
 
-[代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4)
+[代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4)
 
 ## 任务目的
 
@@ -58,9 +58,9 @@ CSS 样式
         margin: auto;
     }
 
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_1.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_1.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_1.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_1.html)
 
 这种方法的实现原理是：
 
@@ -89,9 +89,9 @@ CSS 样式
         margin-top: -25vh;
     }
 
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_5.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_5.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_5.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_5.html)
 
 以上两种方式都必须确定元素的高度，否则方法一中元素的高度会被拉长到底，而方法二中 margin 的值则无法确定。
 
@@ -115,9 +115,9 @@ CSS 样式
         transform: translate(-50%, -50%);
     }
 
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_6.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_6.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_6.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_6.html)
 
 #### 二.通过内外边距实现居中
 
@@ -140,9 +140,9 @@ CSS 样式
 
 注意，这里的父元素边框一定要进行设置，不然父元素会随着子元素一起下移。如果不想要看到边框怎么办？将边框设置与背景同色即可。
 
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_8.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_8.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_8.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_8.html)
 
 ##### 2.设置父元素内边距
 
@@ -158,9 +158,9 @@ CSS 样式
         height: 50vh; 
     }
 
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_3.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_3.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_3.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_3.html)
 
 ##### 3.利用子元素内边距填充间距
 
@@ -181,9 +181,9 @@ CSS 样式
 
 我觉得这个方法比较 tricky，不太喜欢。而且在本任务中，两个黄色 1/4 圈就不好实现了。但是也是一个比较创意的方法吧，所以列出来。
 
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_4.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_4.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_4.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_4.html)
 
 #### 三.通过改变 display 实现居中
 
@@ -204,9 +204,9 @@ CSS 样式
         vertical-align: middle;
     }    
 
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_2.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_2.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_2.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_2.html)
 
 ##### 2.display: table-cell
 
@@ -226,9 +226,9 @@ CSS 样式
         display: inl
     }    
 
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_7.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_7.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_7.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_7.html)
 
 ##### 3.display: flex
 
@@ -239,9 +239,9 @@ CSS 样式
         align-items:center;
     }
  
-[任务实现结果](https://theaao.github.io/baidu_ife_tasks/bing_academy/task4/task4_9.html)
+[任务实现结果](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_9.html)
 
-[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task4/task4_9.html)
+[具体代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/task4_9.html)
 
 ## 在线学习参考资料
 

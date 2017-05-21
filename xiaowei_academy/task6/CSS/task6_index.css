@@ -1,0 +1,218 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-17 10:29:05
+* @Last Modified by:   Thea Ao
+* @Last Modified time: 2017-05-20 22:35:03
+*/
+.shade {
+    width: 191px;
+    height: 301px;
+    opacity: 0.5;
+    position: absolute; 
+}
+.green-shade {
+    background-color: #428c59;
+    top: 0;
+    left: 0;
+}
+.red-shade {
+    background-color: #cc7680;
+    right: 0;
+    top: 0;
+}
+.grey-shade {
+    background-color: #afb1c1;
+    bottom: 2px;
+    width: 457px;
+    height: 61px;
+    background-color: rgba(3,0,0,.4);
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+.column {
+    margin-top: 34px;
+    margin-right: 25px;
+    width: 230px;
+}
+.column-right {
+    width: 131px;
+    margin-right: 0;
+}
+.column-header {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.header {
+    font-family: "Microsoft YaHei", sans-serif;
+}
+.header-green {
+    color: #418c59;
+}
+.header-yellow {
+    color: #d2994f;
+}
+.header-red {
+    color: #cc7680;
+}
+.side {
+    width: 203px;
+    margin-left: 48px;
+    border-top: solid 2px #cc8091;
+}
+.header-style-1 {
+    font-size: 24px;
+    color: #000000;
+    text-decoration-line: underline;
+    font-variant: small-caps;
+    line-height: 40px;
+}
+.header-style-1::first-letter {
+    text-transform: uppercase;
+}
+.header-style-2 {
+    font-size: 12px;
+    color: #676767;
+    font-family: KaiTi, sans-serif;
+    font-variant: none;
+}
+.header-style-3 {
+    font-size: 116px;
+    color: #75b86b;
+    font-style: italic;
+    margin-left: -20px;
+    line-height: 1.2;
+}
+.header-style-4 {
+    font-size: 55px;
+    color: #cc8091;
+}
+.header-style-4 .smaller {
+    font-size: 21px;
+}
+.smaller>.smaller {
+    font-size: 12px;
+}
+.part-left {
+    width: 415px;
+}
+.header-style-5 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: SimHei;
+    color: #11456b;
+    margin-bottom: 16px;
+}
+.header-style-5 > .smaller {
+    font-size: 33px;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+.header-style-6 {
+    font-size: 26px;
+    color: #ffffff;
+    border-left: solid 3px #72b16a;
+    line-height: 44px;
+    padding-left: 20px;
+}
+.header-style-6 .smaller {
+    font-size: 12px;
+    color: #72b16a;
+    font-style: italic;
+    word-spacing: 140%;
+}
+.header-style-7 {
+    font-size: 110px;
+    display: inline-block;
+    line-height: .8;
+    vertical-align: bottom;
+} 
+.header-style-8 {
+    font-style: italic;
+    font-size: 21px/24px;
+}
+.header-style-9 {
+    font-size: 12px;
+}
+.overhang {
+    color: #f5e327;
+    font-family: SimHei;
+    font-size: 72px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+}
+p>.overhang{
+    font-size: 70px;
+    font-weight: normal;
+    font-style: normal;
+}
+p img {
+    margin: 10px 20px;
+}
+.part-right {
+    position: relative;
+    width: 460px;
+}
+.catalog {
+    width: 459px;
+    background-color: #eeedd6;
+    height: 318px;
+    padding: 20px 0 0 30px;
+    position: relative;
+    margin-top: 30px;
+}
+.catalog li {
+    list-style-type: none;
+    font: 15px/20px SimSun, serif;
+    color: #5a5b5b;
+    margin: 20px 0;
+}
+.catalog li .smaller {
+    font-size: 12px;
+    font-style: italic;
+}
+.triangle-up {
+    width: 16px;
+    height: 16px;
+    border: solid 8px #11456b;
+    border-left-color: #eeedd6;
+    border-top-color: #eeedd6;
+    border-right-color: #eeedd6;
+    float: left;
+    margin-right: 10px;
+}
+.catalog .red-block{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    height: 160px;
+    padding: 40px 0 0 30px;
+}
+.in-red-block {
+    width: 60%;
+    display: inline-block;
+    height: 86px;
+    border-left: solid 2px #ffffff;
+    padding: 10px;
+}
+blockquote {
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 14px/16px;
+    color: #5a5b5b;
+    font-style: italic;
+
+}
+blockquote .fa {
+    color: #d45d5c;
+}
+

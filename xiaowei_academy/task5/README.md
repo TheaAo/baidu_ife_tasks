@@ -2,9 +2,9 @@
 
 [题目](http://ife.baidu.com/course/detail/id/96)
 
-[预览](https://theaao.github.io/baidu_ife_tasks/bing_academy/task5/task5.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task5/task5.html)
 
-[代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/bing_academy/task5/task5.html)
+[代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task5/task5.html)
 
 ## 任务目的
 

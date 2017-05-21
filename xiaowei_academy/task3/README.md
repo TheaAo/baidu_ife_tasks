@@ -3,9 +3,9 @@
 
 [题目](http://ife.baidu.com/course/detail/id/94)
 
-[预览](https://theaao.github.io/baidu_ife_tasks/bing_academy/task3/task3.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task3/task3.html)
 
-[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/bing_academy/task3)
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task3)
 
 ## 任务目标
 
@@ -55,15 +55,15 @@
 
 通过设置三栏的父元素的 padding 为后面两栏预留空间。然后设置左右栏的定位方式为 relative,在通过设置它们的 margin 和 left/right 为负值，对它们的位置进行调整。
 
-[圣杯式布局预览](https://theaao.github.io/baidu_ife_tasks/bing_academy/task3/shengbei/)
-[圣杯式布局代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/bing_academy/task3/shengbei)
+[圣杯式布局预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task3/shengbei/)
+[圣杯式布局代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task3/shengbei)
 
 #### 双飞翼布局
 
 给中间栏单独加了一个外包装，浮动它。然后设置中间栏的外边距为左右两栏预留空间，再通过设置左右两栏的外边距将其摆好。与圣杯式布局相比，多了 HTML 结构，但是无需使用相对定位。
 
-[双飞翼布局预览](https://theaao.github.io/baidu_ife_tasks/bing_academy/task3/shuangfeiyi)
-[双飞翼布局代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/bing_academy/task3/shuangfeiyi)
+[双飞翼布局预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task3/shuangfeiyi)
+[双飞翼布局代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task3/shuangfeiyi)
 
 ## 参考资料
 

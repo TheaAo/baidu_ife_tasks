@@ -11,6 +11,8 @@
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task1/task1.html)
 
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task1/README.md)
+
 ### 任务二：零基础 HTML 及 CSS 编码（一）
 
 [题目](http://ife.baidu.com/course/detail/id/92)
@@ -18,6 +20,8 @@
 [预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task2/task2.html)
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task2/task2.html)
+
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task2/README.md)
 
 ### 任务三：三栏式布局
 
@@ -27,6 +31,8 @@
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task3)
 
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task3/README.md)
+
 ### 任务四：定位和居中问题
 
 [题目](http://ife.baidu.com/course/detail/id/95)
@@ -34,6 +40,8 @@
 [预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_1.html)
 
 [代码](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task4/task4_1.html)
+
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task4/README.md)
 
 ### 任务五：零基础 HTML 及 CSS 编码（二）
 
@@ -43,6 +51,8 @@
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task5/task5.html)
 
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task5/README.md)
+
 ### 任务六：通过 HTML 及 CSS 模拟报纸排版
 
 [题目](http://ife.baidu.com/course/detail/id/99)
@@ -51,7 +61,7 @@
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task6)
 
-
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/blob/master/xiaowei_academy/task6/README.md)
 
 ### 任务七：
 

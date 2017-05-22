@@ -1,0 +1,57 @@
+/*
+* @Author: Thea Ao
+* @Date:   2017-05-22 09:31:18
+* @Last Modified by:   Thea Ao
+* @Last Modified time: 2017-05-22 18:32:40
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #282828;
+}
+body {
+    width: 1280px;
+    margin: auto;
+    background-color: #ffffff;
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 12px;
+}
+header,footer {
+    height: 56px;
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 54px;
+}
+h3 {
+    font-size: 21px;
+    line-height: 2;
+}
+h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+section {
+    text-align: center;
+    position: relative;
+}
+button:hover {
+    cursor: pointer;
+}
+hr {
+    width: 31px;
+    height: 3px;
+    background-color: #ffffff;
+    border: none;
+    margin: auto;
+}

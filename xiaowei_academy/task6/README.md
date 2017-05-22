@@ -80,6 +80,10 @@ opacity 的值会被用到整个元素上，意味着其后代元素也将拥有
 
 要画向左向右向下的小三角形，设置对应三边的颜色就好了。
 
+### 其他
+
+自己对 CSS 样式的命名有些乱，可能需要更多项目练习吧。
+
 ## 在线资料
 
 [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)

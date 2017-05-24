@@ -1,0 +1,131 @@
+/*
+* @Author: Thea Ao
+* @Date:   2017-05-23 10:29:54
+* @Last Modified by:   Thea Ao
+* @Last Modified time: 2017-05-24 09:51:00
+*/
+/* 各部分公共样式 */
+
+/* 色彩部分 */
+.white {
+    color: #ffffff;
+}
+.red {
+    color: #e74f4d;
+}
+.darker-red {
+    color: #bf4f49;
+}
+.darker-black{
+    color: #231815;
+}
+.lighter-black {
+    color: #767777;
+}
+.placeholder {
+    color: #a8aaaa;
+    font-size: 12px;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+.bg-red {
+    background-color: #e74f4d;
+}
+.bg-grey {
+    background-color: #ababab; 
+}
+
+/* 小图标和小控件 */
+button.red-border {
+    border: solid 1px #e25c60;
+    color: #e25c60;
+    background-color: #ffffff;
+}
+button.white-border {
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    background-color: #e74f4d;
+}
+button.no-border {
+    border: none;
+}
+.fa-angle-down { 
+    width: 19px;
+    height: 19px;
+    padding: 3px;
+    text-align: center;
+    vertical-align: -5px;
+    display: inline-block;
+}
+.fa-angle-down:hover {
+    cursor: pointer;
+}
+.triangle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    z-index: 1;
+}
+.triangle.left {
+    left: -26px;
+}
+.triangle.right {
+    right: -26px;
+}
+.text-input {
+    width: 48%;
+    height: 41px;
+    line-height: 41px;
+    background-color: #ededee;
+    padding-left: 17px;
+    margin-top: 13px;
+}
+.text-input label {
+    color: rgba(35,24,21,0.8);
+    margin-right: 8px;
+}
+.text-input input[type=text]{
+    border: none;
+    background-color: #ededee;
+    width: 75%;
+}
+.text-input.area {
+    width: 100%;
+    height: 121px;
+}
+.text-input textarea {
+    border: none;
+    background-color: #ededee;
+    overflow: auto;
+    width: 100%;
+    height: 50%;
+}
+/* 布局方面 */
+.vertical-center-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.horizontal {
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.column {
+    float: left;
+    height: 100%;
+    position: relative;
+}
+.left{
+    float: left;
+}
+.right {
+    float: right;
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}

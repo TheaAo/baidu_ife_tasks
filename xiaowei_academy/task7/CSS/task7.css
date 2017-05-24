@@ -2,18 +2,17 @@
 * @Author: Thea Ao
 * @Date:   2017-05-22 09:34:33
 * @Last Modified by:   Thea Ao
-* @Last Modified time: 2017-05-22 18:45:45
+* @Last Modified time: 2017-05-24 10:00:03
 */
-.center-container {
+/* 各部分特有样式 */
+
+/* header 部分 */
+header .vertical-center-container {
     width: 100%;
     height: 100%;
-    margin: auto;
-    position: relative;
 }
 div.logo {
-    display: inline-block;
     height: 33px;
-    font: normal normal 21px SimHei;
     margin: 13px 59px;
 }
 .logo-icon {
@@ -22,10 +21,11 @@ div.logo {
 }
 .logo-text {
     vertical-align: 6px;
+    font: 21px SimHei, "黑体", sans-serif;
+    color: #393a3a;
 }
 ul.navigation {
     list-style-type: none;
-    display: inline-block;
     height: 100%;
     position: absolute;
     top: 0;
@@ -61,52 +61,49 @@ ul.navigation {
 .sign-in-text {
     vertical-align: 3px;
 }
+/*第一部分*/
 #section1 {
     background-color: #ededec;
     background-image: url(../images/pic_1.png);
+    background-size: cover;
     width: 100%;
-    height: 691px;
+    height: 691px;    
 }
-#section1 .center-container {
+#section1 .shade {
     background-color: rgba(4,0,0,0.2);
+    width: 100%;
+    height: 100%;
+}
+#section1 .vertical-center-container {
     text-align: left;
-    color: #ffffff;
-    padding-top: 230px;
-    padding-left: 126px;
+    margin-left: 126px;
 }
 #section1 p{
     font-size: 21px;
 }
-.btn-no-border {
-    border: none;
-    background-color: #e74f4d;
-    color: #ffffff;
-    padding-bottom: 2px;
-}
-#section1 button.btn-no-border{
-    font-size: 30px;
+#section1 button{
     width: 331px;
     height: 65px;
-    margin: 65px 0;
+    font-size: 30px;
+    background-color: #e74f4d;
+    margin-top: 65px;
 }
-.column {
-    float: left;
-    text-align: center;
-    height: 100%;
-}
+/* 第二部分 */
 #section2 {
     width: 100%;
     height: 250px;
-    background-color: #ffffff;
 }
 #section2 .column {
     width: 25%;
-    padding: 45px 0;
+}
+#section2 .vertical-center-container {
+    text-align: center;
+}
+#section2 .icon{
+    margin-bottom: 48px;
 }
 #section2 .column p{
-    width: 100%;
-    padding: 0 80px;
-    margin-top: 48px;
+    padding: 0 80px;    
     font-size: 14px;
     line-height:  18px;
     color: #767777;
@@ -115,44 +112,48 @@ ul.navigation {
 #section2 .column:last-child p{
     border-right: none;
 }
+/*第三部分*/
 #section3 {
-    text-align: center;
     width: 100%;
     height: 360px;
     background-color: #ededec;
-    color: #323333;
-    padding-top: 89px;
-    font-family: SimHei, sans-serif;
+}
+#section3 .vertical-center-container {
+    text-align: center;
+    width: 100%;
 }
 #section3 h2 {
     color: rgba(50,51,51,0.5);
 }
+/* 第四部分 */
 #section4 {
     width: 100%;
     height: 340px;
     background-image: url(../images/pic_2.png);
-    color: #ffffff;
+    background-size: cover;
+    z-index: 1;
 }
-#section4 .center-container {
+#section4 .shade{
+    width: 100%;
+    height: 100%;
     background-color: rgba(169,52,50,0.2);
-    padding: 53px 126px;
 }
-#section4 p {
-    line-height: 31px;
-    margin-top: 10px;
-}
+#section4 .vertical-center-container {
+    text-align: center;
+    width: 100%;
+    padding: 0 125px;
+    transform: translateY(-80%);
+} 
 .search {
-    height: 36px;
-    margin: 43px auto; 
+    margin: 43px auto 0; 
 }
 .select {
     width: 236px;
     height: 36px;
+    line-height: 36px;
     background-color: #ffffff;
     margin-right: 28px;
-    padding: 12px;
-    line-height: 12px;
-    color: #a8aaaa;
+    padding: 0 12px;
     text-align: left;
     float: left;
     position: relative;
@@ -160,144 +161,106 @@ ul.navigation {
 .select:hover {
     border: solid 1px #be4e48;
 }
+.select .fa-angle-down {
+    background-color: #be4e48;
+    color: #ffffff;
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
 ul.select-area {
+    width: 100%;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: #e3e3e5;
     border: solid 1px #be4e48;
+    border-top: none;
     list-style-type: none;
-    width: 100%;
-    z-index: 1;
 }
 .select-item {
     width: 100%;
     height: 27px;
-    padding: 8px 12px;
+    line-height: 27px;
+    padding-left: 12px;
     color: rgba(50,51,51,0.7); 
 }
 .select-item.checked {
     background-color: #be4e48;
     color: #ffffff;
 }
-.fa-angle-down {
-    position: absolute;
-    right: 9px;
-    top: 9px;
-    width: 19px;
-    height: 19px;
-    padding: 3px;
-    color: #ffffff;
-    background-color: #be4e48;
-    text-align: center;
-    vertical-align: -5px;
-}
-.fa-angle-down:hover {
-    cursor: pointer;
-}
-#section4 button.btn-no-border {
+#section4 button.no-border {
     width: 236px;
     height: 36px;
+    background-color: #bf4f49;
     font-size: 14px;
+    float: left;
 }
+/*第五节*/
 #section5 {
     width: 100%;
     height: 605px;
-}
-#section5 .center-container {
     background-color: #f7f7f7;
-    padding: 91px 0 0 148px;
+}
+#section5 .vertical-center-container {
+    width: 1000px;
 }
 #section5 .snapshot {
     width: 220px;
-    height: 390px;
     text-align: center;
     float: left;
-    margin-right: 39px;
+    margin-right: 40px;
 }
-.snapshot:last-child {
-    margin-rignt: 0;
+#section5 .snapshot:last-child {
+    margin-right: 0;
 }
 .snapshot .frame {
     padding: 11px 8px;
     background-color: #ffffff;
     margin-top: 10px;
 }
-.snapshot h4 {
-    color: #323333;
-}
-.snapshot p {
-    color: #919191;
-    margin-top: 10px;
-}
 .snapshot.checked h4 {
     font-size: 21px;
     letter-spacing: 34px;
 }
+/* 第六部分 */
 #section6 {
     width: 100%;
     height: 570px;
 }
-#section6 .poster{
-    width: 66.6%;
-    height: 100%;
-    background-image: url(../images/pic_7.png);
-    color: #ffffff;
-    text-align: center;
-    float: left;
-    position: relative;
-    padding-top: 130px;
-}
-.poster .center-container {
-    width: 100%;
-    height: 280px;
-    text-align: center;
-}
-.poster h1 {
-    font-size: 158px;
-    line-height: 1.5;
-    margin-top: -50px;
-
-}
-.poster h2 {
-    font-size: 50px;
-    line-height: 1.5;
-}
-.poster p {
-    font-size: 22px;
-    line-height: 1;
-    margin-bottom: 22px;
-}
-#section6 .poster-caption {
+#section6 .column, #section7 .column {
     width: 33.3%;
-    height: 100%;
-    padding: 165px 70px;
-    float: right;
-    position: relative;
+    text-align: center;
 }
-.red {
-    color: #e25c60;
+#section6 .column:first-child {
+    width: 66.6%;
+    background-image: url(../images/pic_7.png);
+    background-size: cover;
 }
-.poster h3 {
-    color: #323333;
+#section6 .column:first-child p {
+    font-size: 21px;
 }
-.poster-caption p{
-    font-family: SimSun, serif;
+#section6 h1 {
+    font-size: 158px;
+    margin-top: -40px;
+}
+#section6 p {
     line-height: 2.5;
     margin-top: 21px;
-    text-align: left;
-    color: #919191;
 }
-.poster-caption button.btn-with-border {
-    margin: 50px auto 25px;
+#section6 button.red-border {
     width: 107px;
     height: 35px;
+    font-size: 12px;
+    margin-top: 50px;
 }
 ul.pagination {
     list-style-type: none;
     overflow: auto;
-    width: 78px;
-    margin: auto;
+    margin: 25px auto 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 .pagination li{
     float: left;
@@ -310,72 +273,113 @@ ul.pagination {
 .pagination li.checked{
     background-color: #919192;
 }
-.triangle {
-    position: absolute;
-    top: 50%;
-    transform: translateY(50%);
-    z-index: 1;
-}
-.triangle.left {
-    left: -26px;
-}
-.triangle.right {
-    right: -26px;
-}
+/* 第七部分 */
 #section7 {
     width: 100%;
     height: 520px;
 }
-#section7 .column {
-    width: 33.3%;
-    text-align: center;
-    position: relative;
-
-}
-.column.red {
-    background-color: #e74f4d;
-}
-.column.red h3 {
-    color: #ffffff;
-}
-.column hr {
-    margin: 25px auto;
-}
-.column.white hr {
-    background-color: #ababaa;
-}
-.column.white {
-    background-color: #ffffff;
-}
-.column.white h3 {
-    color: #323333;
-} 
 #section7 .column:last-child {
     background-image: url(../images/pic_8.png);
+    background-size: cover;
 }
-.column .shade {
+#section7 .column:last-child .shade {
     background-color: rgba(50,51,51,0.4);
     width: 100%;
     height: 100%;
 }
-#section7 button.btn-with-border {
+#section7 button {
     width: 170px;
     height: 44px;
+    margin-top: 25px;
 }
-button.btn-with-border.white {
-    border: solid 1px #ffffff;
-    color: #ffffff;
-    background-color: #e74f4d;
+#section7 hr {
+    margin-top: 25px;
 }
-button.btn-with-border.red {
-    border: solid 1px #e74f4d;
-    color: #e74f4d;
-    background-color: #ffffff;
+/* 第八部分 */
+#section8 {
+    width: 100%;
+    height: 750px;
 }
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+#section8 .vertical-center-container {
+    width: 80%;
     text-align: center;
 }
+#section8 .vertical-center-container>*:first-child {
+    margin-bottom: 107px;
+}
+#section8 hr {
+    margin-bottom: 15px;
+}
+#section8 .column {
+    width: 60%;
+    text-align: left;
+}
+#section8 .column:first-child {
+    width: 30%;
+}
+#section8 .fa-angle-down::before {
+    vertical-align: 4px;
+}
+#section8 .h4 {
+    margin-bottom: 27px;
+}
+#section8 .p {
+    line-height: 1.75
+}
+.info {
+    margin-top: 40px;
+    text-align: left;
+}
+.btn-more {
+    display: inline-block;
+    text-align: right;
+    color: #aaaaaa;
+}
+#section8 button.text-input {
+    width: 100%;
+    color: rgba(35,24,21,0.8);
+    font-family: SimHei, "黑体", sans-serif;
+}
+/* 第九部分 */
+#section9 {
+    width: 100%;
+    height: 360px;
+    background-color: #32353e;
+}
+#section9 .vertical-center-container {
+    text-align: center;
+}
+#section9 .contact {
+    margin: 30px auto;
+    display: inline-block;
+}
+#section9 .contact input[type=text]{
+    width: 430px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+}
+#section9 .contact button{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.3);
+}
+#section9 .icon {
+    margin: 0 14px;
+}
+/* footer 部分 */
+footer .vertical-center-container {
+    width: 100%;
+    height: 100%;
+    line-height: 56px;
+    padding-left: 100px;
+    background-color: #2f3039;
+}
+a.btt {
+    text-decoration: none;
+    position: absolute;
+    right: 40px;
+}
+a.btt:link, a.btt:hover, a.btt:visited {
+    color: #ffffff;
+}v

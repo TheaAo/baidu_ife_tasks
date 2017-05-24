@@ -2,8 +2,9 @@
 * @Author: Thea Ao
 * @Date:   2017-05-22 09:31:18
 * @Last Modified by:   Thea Ao
-* @Last Modified time: 2017-05-22 18:32:40
+* @Last Modified time: 2017-05-24 10:16:39
 */
+/* 重设样式 */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,37 +14,44 @@ html {
     background-color: #282828;
 }
 body {
-    width: 1280px;
+    min-width: 1280px;
     margin: auto;
     background-color: #ffffff;
-    font-family: "Microsoft YaHei", sans-serif;
+    font-family: "Microsoft YaHei", "微软雅黑", STXiHei, "华文细黑", SimHei, "黑体",sans-serif;
     font-size: 12px;
+}
+section {
+    position: relative;
 }
 header,footer {
     height: 56px;
     width: 100%;
+    position: relative;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
+    margin: 10px 0;
+    color: #323333;
 }
 h1 {
     font-size: 60px;
 }
 h2 {
     font-size: 54px;
+    line-height: 1;
 }
 h3 {
     font-size: 21px;
-    line-height: 2;
+    line-height: 1.5;
 }
 h4 {
     font-size: 14px;
-    line-height: 18px;
-    margin-top: 10px;
+    color: #231815;
 }
-section {
-    text-align: center;
-    position: relative;
+p {
+    font: normal 12px/1.5 SimSun, "宋体", STSong, "华文宋体", serif;
+    margin-top: 10px;
+    color: #aaaaaa;
 }
 button:hover {
     cursor: pointer;
@@ -51,7 +59,6 @@ button:hover {
 hr {
     width: 31px;
     height: 3px;
-    background-color: #ffffff;
     border: none;
     margin: auto;
 }

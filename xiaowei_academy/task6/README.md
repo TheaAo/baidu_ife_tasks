@@ -92,4 +92,4 @@ opacity 的值会被用到整个元素上，意味着其后代元素也将拥有
 
 [慕课网：从 psd 到 html](http://www.imooc.com/learn/668)
 
-[慕课网：前端工程师必备的PS技能——切图篇](http://www.imooc.com/learn/506: http://ife.baidu.com/course/detail/id/99)
+[慕课网：前端工程师必备的PS技能——切图篇](http://www.imooc.com/learn/506)

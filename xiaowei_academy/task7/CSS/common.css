@@ -2,7 +2,7 @@
 * @Author: Thea Ao
 * @Date:   2017-05-23 10:29:54
 * @Last Modified by:   Thea Ao
-* @Last Modified time: 2017-05-24 09:51:00
+* @Last Modified time: 2017-05-24 11:42:47
 */
 /* 各部分公共样式 */
 
@@ -37,15 +37,9 @@
 }
 
 /* 小图标和小控件 */
-button.red-border {
-    border: solid 1px #e25c60;
-    color: #e25c60;
-    background-color: #ffffff;
-}
-button.white-border {
-    border: solid 1px #ffffff;
-    color: #ffffff;
-    background-color: #e74f4d;
+button.with-border {
+    border: solid 1px;
+    background-color: transparent;
 }
 button.no-border {
     border: none;

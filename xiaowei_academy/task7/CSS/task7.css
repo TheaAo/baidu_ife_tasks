@@ -2,7 +2,7 @@
 * @Author: Thea Ao
 * @Date:   2017-05-22 09:34:33
 * @Last Modified by:   Thea Ao
-* @Last Modified time: 2017-05-24 10:00:03
+* @Last Modified time: 2017-05-24 11:46:31
 */
 /* 各部分特有样式 */
 
@@ -248,7 +248,7 @@ ul.select-area {
     line-height: 2.5;
     margin-top: 21px;
 }
-#section6 button.red-border {
+#section6 button {
     width: 107px;
     height: 35px;
     font-size: 12px;

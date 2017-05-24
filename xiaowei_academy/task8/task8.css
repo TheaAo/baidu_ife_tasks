@@ -1,0 +1,107 @@
+/*
+* @Author: Thea Ao
+* @Date:   2017-05-24 14:57:30
+* @Last Modified by:   Thea Ao
+* @Last Modified time: 2017-05-24 16:23:27
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: solid 1px #999;
+    width: 100%;
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 20px;
+}
+.block {
+    background-color: #eee;
+    border: solid 1px #999;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.row {
+    height: 50px;
+}
+
+@media (min-width: 769px)  {
+    .col-md-span1 {
+        width: calc((100% - 260px) / 12);
+    }
+    .col-md-span2{
+        width: calc((100% - 260px) / 6 + 20px);
+    }
+    .col-md-span3{
+        width: calc((100% - 260px) / 4 + 40px);
+    }
+    .col-md-span4{
+        width: calc((100% - 260px) / 3 + 60px);
+    }
+    .col-md-span5{
+        width: calc((100% - 260px) / 12 * 5 + 80px);
+    }
+    .col-md-span6{
+        width: calc((100% - 260px) / 2 + 100px);
+    }
+    .col-md-span7{
+        width: calc((100% - 260px) / 7 * 5 + 120px);
+    }
+    .col-md-span8{
+        width: calc((100% - 260px) / 3 * 2 + 140px);
+    }
+    .col-md-span9{
+        width: calc((100% - 260px) / 3 * 3 + 160px);
+    }
+    .col-md-span10{
+        width: calc((100% - 260px)/ 6 * 5 + 180px);
+    }
+    .col-md-span11{
+        width: calc((100% - 260px)/ 12 * 11 + 200px);
+    }
+    .col-md-span12{
+        width: calc(100% - 40px);
+    }    
+}
+@media (max-width: 768px) {
+    .col-sm-span1 {
+        width: calc((100% - 260px) / 12);
+    }
+    .col-sm-span2{
+        width: calc((100% - 260px) / 6 + 20px);
+    }
+    .col-sm-span3{
+        width: calc((100% - 260px) / 4 + 40px);
+    }
+    .col-sm-span4{
+        width: calc((100% - 260px) / 3 + 60px);
+    }
+    .col-sm-span5{
+        width: calc((100% - 260px) / 12 * 5 + 80px);
+    }
+    .col-sm-span6{
+        width: calc((100% - 260px) / 2 + 100px);
+    }
+    .col-sm-span7{
+        width: calc((100% - 260px) / 7 * 5 + 120px);
+    }
+    .col-sm-span8{
+        width: calc((100% - 260px) / 3 * 2 + 140px);
+    }
+    .col-sm-span9{
+        width: calc((100% - 260px) / 3 * 3 + 160px);
+    }
+    .col-sm-span10{
+        width: calc((100% - 260px)/ 6 * 5 + 180px);
+    }
+    .col-sm-span11{
+        width: calc((100% - 260px)/ 12 * 11 + 200px);
+    }
+    .col-sm-span12{
+        width: calc(100% - 40px);
+    }
+}

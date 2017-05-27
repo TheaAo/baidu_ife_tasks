@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <title>任务四：模拟队列</title>
+            <style>
+                .number {
+                    padding: 10px;
+                    margin: 5px;
+                    background-color: red;
+                    color: white;
+                }
+                .number:hover {
+                    cursor: pointer;
+                }
+                #queue {
+                    padding: 10px;
+                    margin: 5px;
+                }
+            </style>
+    </head>
+    <body>
+        <div>
+            <input type="text">
+            <button id="ins-left">左侧入</button>
+            <button id="ins-right">右侧入</button>
+            <button id="del-left">左侧出</button>
+            <button id="del-right">右侧出</button>
+        </div>
+        <div id="queue">
+            
+        </div>
+        <script>
+            // 输入验证函数，如果输入不是数字则弹窗提醒
+            function validateInput(){
+                var input = document.getElementsByTagName('input')[0];
+                if (isNaN(parseInt(input.value))) {
+                    alert('请输入一个数字');
+                    return false;
+                }else{
+                    return input.value;
+                }
+            }
+            // 
+            function removeSelf(){
+                var parent = this.parentNode;
+                parent.removeChild(this);
+            }
+            // 创建新的队列节点
+            function createNewNode(){
+                var num = validateInput(); 
+                if (num) {
+                    var newNode = document.createElement('span');
+                    newNode.append(document.createTextNode(num));
+                    newNode.setAttribute('class','number');
+                    newNode.onclick = removeSelf;
+                    return newNode;
+                }else{
+                    return false;
+                }
+                
+            }
+            // 为按钮绑定事件处理程序
+            var btnLeftIn = document.getElementById('ins-left');
+            var btnLeftOut = document.getElementById('del-left');
+            var btnRightIn = document.getElementById('ins-right');
+            var btnRightOut = document.getElementById('del-right');
+            var queue = document.getElementById('queue');
+
+            btnLeftIn.onclick = function(){
+                var newNode = createNewNode();
+                if (newNode) {
+                    if (queue.hasChildNodes()) {
+                        queue.insertBefore(newNode, queue.firstChild);
+                    }else{
+                        queue.append(newNode);
+                    }
+                }
+            };
+            btnLeftOut.onclick = function(){
+                if (queue.hasChildNodes()) {
+                    queue.removeChild(queue.firstChild);
+                }else{
+                    alert('队列已空！');
+                }
+            };
+            btnRightIn.onclick = function(){
+                var newNode = createNewNode();
+                if (newNode) {
+                    queue.append(newNode);
+                }                
+            };
+            btnRightOut.onclick = function(){
+                if (queue.hasChildNodes()) {
+                    queue.removeChild(queue.lastChild);
+                }else{
+                    alert('队列已空！');
+                }
+            }
+        </script>
+    </body>
+</html>

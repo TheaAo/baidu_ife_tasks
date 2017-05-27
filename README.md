@@ -75,4 +75,78 @@
 
 ## 斌斌学院
 
+### 任务一：零基础JavaScript编码（一）
+
+[题目](http://ife.baidu.com/course/detail/id/93)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/binbin_academy/task1/task1.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/binbin_academy/task1/README.md)
+
+### 任务二：零基础JavaScript编码（二）
+
+[题目](http://ife.baidu.com/course/detail/id/91)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/binbin_academy/task2/task2.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/binbin_academy/task2/README.md)
+
+### 任务三：零基础JavaScript编码（三）
+
+[题目](http://ife.baidu.com/course/detail/id/98)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/binbin_academy/task3/task3.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/binbin_academy/task3/README.md)
+
+### 任务四：基础JavaScript练习（一）
+
+[题目](http://ife.baidu.com/course/detail/id/103)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/binbin_academy/task4/task4.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/binbin_academy/task4/README.md)
+
+### 任务五：基础JavaScript练习（二）
+
+[题目](http://ife.baidu.com/course/detail/id/105)
+
+预览
+
+代码
+
+### 任务六：基础JavaScript练习（三）
+
+[题目](http://ife.baidu.com/course/detail/id/107)
+
+预览
+
+代码
+
+### 任务七：JavaScript和树（一）
+
+[题目](http://ife.baidu.com/course/detail/id/108)
+
+预览
+
+代码
+
+### 任务八：JavaScript和树（二）
+
+[题目](http://ife.baidu.com/course/detail/id/110)
+
+预览
+
+代码
+
+### 任务九：JavaScript和树（三）
+
+[题目](http://ife.baidu.com/course/detail/id/111)
+
+预览
+
+代码
+
+
+
 ## 耀耀学院

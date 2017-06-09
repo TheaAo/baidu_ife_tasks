@@ -111,17 +111,17 @@
 
 [题目](http://ife.baidu.com/course/detail/id/105)
 
-预览
+[预览](https://theaao.github.io/baidu_ife_tasks/binbin_academy/task5/task5.html)
 
-代码
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/binbin_academy/task5/README.md)
 
 ### 任务六：基础JavaScript练习（三）
 
 [题目](http://ife.baidu.com/course/detail/id/107)
 
-预览
+[预览](https://theaao.github.io/baidu_ife_tasks/binbin_academy/task6/task6.html)
 
-代码
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/binbin_academy/task6/README.md)
 
 ### 任务七：JavaScript和树（一）
 

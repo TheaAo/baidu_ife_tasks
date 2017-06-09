@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <title>任务六：模糊匹配</title>
+            <style>
+                .queue-element {
+                    padding: 10px;
+                    margin: 5px;
+                    background-color: blue;
+                    color: white;
+                }
+                .highlight {
+                    background-color: red;
+                }
+                .queue-element:hover {
+                    cursor: pointer;
+                }
+                #queue {
+                    padding: 10px;
+                    margin: 5px;
+                }
+                div {
+                    margin-top: 5px;
+                }
+            </style>
+    </head>
+    <body>
+        <div>
+            <textarea id="input"></textarea>
+            <button id="ins-left">左侧入</button>
+            <button id="ins-right">右侧入</button>
+            <button id="del-left">左侧出</button>
+            <button id="del-right">右侧出</button>
+            <button id="clear-all">清除全部</button><br>
+        </div>
+        <div>
+            <input id="search-input">
+            <button id="search">查询</button>
+        </div>
+        <div id="queue"></div>
+        <script src="task6.js"></script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>任务七：遍历二叉树</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            html,body {
+                height: 100vh;
+            }
+            #tree, #tree * {
+                width: calc(50% - 40px);
+                height: calc(80% - 40px);
+                border: solid 1px black;
+                float: left;
+                margin: 20px;
+                background-color: white;
+            }
+            #tree {
+                width: calc(100% - 40px);
+            }
+            #panel {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="tree">
+            <div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="panel">
+            <button id="pre">先序遍历</button>
+            <button id="mid">中序遍历</button>
+            <button id="post">后序遍历</button>
+        </div>
+        <script src="task7.js"></script>
+    </body>
+</html>

@@ -127,9 +127,9 @@
 
 [题目](http://ife.baidu.com/course/detail/id/108)
 
-预览
+[预览](https://theaao.github.io/baidu_ife_tasks/binbin_academy/task7/task7.html)
 
-代码
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/binbin_academy/task7/README.md)
 
 ### 任务八：JavaScript和树（二）
 
@@ -146,7 +146,5 @@
 预览
 
 代码
-
-
 
 ## 耀耀学院

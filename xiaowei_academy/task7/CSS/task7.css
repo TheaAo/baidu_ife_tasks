@@ -2,7 +2,7 @@
 * @Author: Thea Ao
 * @Date:   2017-05-22 09:34:33
 * @Last Modified by:   Thea Ao
-* @Last Modified time: 2017-05-24 11:46:31
+* @Last Modified time: 2017-06-12 09:17:42
 */
 /* 各部分特有样式 */
 
@@ -177,6 +177,13 @@ ul.select-area {
     border: solid 1px #be4e48;
     border-top: none;
     list-style-type: none;
+    display: none;
+}
+[type=checkbox] {
+    display: none;
+}
+[type=checkbox]:checked ~ ul.select-area {
+    display: block;
 }
 .select-item {
     width: 100%;

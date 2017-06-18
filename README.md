@@ -77,7 +77,7 @@
 
 [题目](http://ife.baidu.com/course/detail/id/104)
 
-[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task8.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task8/task8.html)
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task8)
 
@@ -87,7 +87,7 @@
 
 [题目](http://ife.baidu.com/course/detail/id/113)
 
-[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task9.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task9/task9.html)
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task9)
 
@@ -97,7 +97,7 @@
 
 [题目](http://ife.baidu.com/course/detail/id/114)
 
-[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task10.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task10/task10.html)
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task10)
 
@@ -107,7 +107,7 @@
 
 [题目](http://ife.baidu.com/course/detail/id/116)
 
-[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task11.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task11/task11.html)
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task11)
 
@@ -117,7 +117,7 @@
 
 [题目](http://ife.baidu.com/course/detail/id/117)
 
-[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task12.html)
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task12/task12.html)
 
 [代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task12)
 

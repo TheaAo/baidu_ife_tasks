@@ -1,0 +1,322 @@
+/*
+* @Author: Thea Ao
+* @Date:   2017-06-16 13:37:17
+* @Last Modified by:   Thea Ao
+* @Last Modified time: 2017-06-18 10:30:40
+*/
+$headerBg: #2189bf; 
+$mainBg: #eeeeed;
+$asideBg: #2a2e3d;
+$asideBgLighter: #383d4d;
+$asideFontColor: #6e8096;
+$grey: #b9babe;
+$lighterGrey: #f4f5f7;
+$blue: #388bc2;
+$red: #d04a36;
+$yellow: #e2cd46;
+$green: #43b29d;
+$orange: #ec6500;
+
+@mixin center($left: 50%, $x: -50%, $top: 50%, $y: -50%){
+    position: absolute;
+    top: $top;
+    left: $left;
+    transform: translate($x,$y);
+}
+@mixin block($width:100%,$height:100%){
+    width: $width;
+    height: $height;
+}
+@mixin section3card($color){
+    @include block(200px, 70px);
+    background-color: white;
+    border-left: solid 5px;
+    color: $grey;
+    border-color: $color;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+
+    .number{
+        color: black;
+    }
+    .block{
+        background-color: $color;
+        @include block(60px, 50px); 
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+@mixin section4card($width){
+    @include block($width, 360px);
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    h4{
+        color: $grey;
+        height: 40px;
+        width: 100%;
+        line-height: 40px;
+        padding: 0 20px;
+        margin: 0;
+        font-weight: normal;
+        background-color: $lighterGrey;
+        border-radius: 10px 10px 0 0;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: $asideBg;
+    font-size: 12px;
+
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+    .floatfix {
+        overflow: auto;
+    }
+}
+
+header.main-header {
+    @include block(100%,55px);
+    background-color: $headerBg;
+    position: relative;
+
+    #logo{
+        @include center(50px,0);
+    }
+    .search {
+        @include block(300px,30px);
+        border-radius: 15px;
+        background-color: white;
+        @include center(auto,0);
+        right: 155px;
+
+        &::before {
+            content: url(../images/icon_search.png);
+            @include center(15px,0);
+        }
+
+        input{
+            @include block(240px,auto);
+            @include center(auto,0);
+            right: 15px;
+            border: none;
+        }
+
+    }
+    #logIn {
+        color: white;
+        @include center(auto,0);
+        right: 90px;
+        font-size: 12px;
+
+        img{
+            margin: 0 5px -5px;
+        }
+        
+    }
+}
+.wrapper {
+    margin: auto;
+    width: 1280px;
+    //height: 100%;
+}
+main{
+    @include block(1020px);
+    background-color: $mainBg;
+    padding-bottom: 20px;
+
+    section {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    header.router{
+        background-color: white;
+        padding-left: 30px;
+        line-height: 30px;
+        color: $grey;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        padding: 20px 60px;
+
+        form {
+            background-color: white;
+            padding: 15px 30px;
+            width: 100%;
+            @include block(100%, 90px);
+
+            .select {
+                height: 30px;
+                border: solid 1px $grey;
+                padding: 0 10px;
+                margin: 0 15px 5px;
+                line-height: 30px;
+                display: inline-block;
+
+                &::after {
+                    content: url(../images/icon_arrow_down_checked.png);
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        #section2 {
+            @include block(100%);
+            margin-bottom: 10px;
+
+            .card {
+                @include block(110px, 90px);
+                margin-right: 5px;
+                float: left;
+                background-color: white;
+                text-align: center;
+                padding: 10px;
+                font-weight: bolder;
+
+                &:hover{
+                    border-top: solid 5px $blue;
+                }
+
+                .time {
+                    color: black;
+                    font-size: 16px;
+                }
+                .money{
+                    color: $orange;
+                    font-size: 24px;
+                }
+                .fa{
+                    color: $grey;
+                }
+                p{
+                    margin-top: 0;
+                }
+            }
+            .pointer {
+                @include block(30px, 90px);
+                margin-right: 10px;
+                background-color: white;
+                position: relative;
+                line-height: 90px;
+                color: $grey;
+                text-align: center;
+                font-size: 24px;
+
+                img{
+                    @include center;
+                }
+
+                &:last-of-type{
+                    margin-right: 0;
+                }
+            }
+        }
+
+        #section3 {
+
+            h4 {
+                margin-bottom: 0;
+            }
+            .card:first-of-type {
+                @include section3card($green);
+            }
+            .card:nth-of-type(2) {
+                @include section3card($blue);
+            }
+            .card:nth-of-type(3){
+                @include section3card($red);
+            }
+            .card:last-of-type{
+                @include section3card($yellow);
+                margin-right: 0;
+            }
+        }
+
+        #section4 {
+            .card{
+                &:nth-of-type(1), &:nth-of-type(4){
+                    @include section4card(530px);
+                }
+                &:nth-of-type(2), &:nth-of-type(3){
+                    @include section4card(350px);
+                }
+            }
+        }
+    }
+}
+aside {
+    @include block(260px,100%);
+    background-color: $asideBg;
+    padding: 25px 0;
+    color: $asideFontColor;
+
+    .basic-info {
+        margin: 0;
+        padding: 0 45px;
+
+        .avatar {
+            @include block;
+            margin: 0;
+
+            img{
+                @include block(50px,50px);
+                border-radius: 50%;
+                margin: 0 20px;
+            }
+            figcaption {
+                line-height: 50px;
+            }
+        }
+
+        div {
+            width: 49%;
+            text-align: center;
+            margin: 20px 0;
+
+            &:first-of-type {
+                border-right: solid 1px;
+            }
+        }
+    }
+
+    nav {
+        ul{
+            list-style: none outside;
+            padding: 10px 0;
+
+            li{
+                margin: 10px 0;
+                padding-left: 20px;
+
+                >ul{
+                    display: none;
+                }
+                &:hover {
+                    color: white;
+                    background-color: $asideBgLighter;
+                    >ul{
+                        display: block;
+                        color: $asideFontColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

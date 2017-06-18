@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <title>任务九：实现复杂页面</title>
+        <link rel="stylesheet" href="css/task9.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <img src="images/logo.png" alt="网站标识" id="logo">
+            <div class="search">
+                <input type="text">
+            </div>
+            <div id="logIn">
+                <img src="images/icon1.png" alt="登录标识">登录
+            </div>
+        </header>
+        <div class="wrapper floatfix">
+            <aside class="left">
+                    <section class="basic-info floatfix">
+                        <figure class="avatar floatfix">
+                            <img src="images/avatar_100px.jpg" alt="头像" class="left">
+                            <figcaption class="left">ABC123</figcaption>
+                        </figure>
+                        <div class="left">
+                            <span>110</span><br><span>收藏</span>
+                        </div>
+                        <div class="left"><span>313</span><br><span>粉丝</span></div>
+                    </section>
+                    <nav>
+                        <ul class="navigation">
+                            <li><span></span>个人报表
+                                <ul>
+                                    <li><span></span>文件一</li>
+                                    <li><span></span>文件二
+                                        <ul>
+                                            <li><span></span>文档一</li>
+                                            <li><span></span>文档二</li>
+                                        </ul>
+                                    </li>
+                                    <li><span></span>文件三</li>
+                                </ul>
+                            </li>
+                            <li><span></span>个人收藏</li>
+                            <li><span></span>我的分享</li>
+                            <li><span></span>图库</li>
+                            <li><span></span>成长记录</li>
+                            <li><span></span>账户信息</li>
+                        </ul>
+                    </nav>
+            </aside>
+            <main class="left">
+                <header class="router">C站 / 个人报表 / 文件一 / 文档一</header>
+                <section class="container">
+                    <form id="section1">
+                        <label id="label1">查询项<div class="select">第一项</div></label>
+                        <label id="label2">买方<div class="select">AAA</div></label>
+                        <label id="label3">卖方<div class="select">BBB</div></label>
+                        <img src="images/icon_switch.png" alt="交换图标">
+                        <label id="label4">日期<div class="select">2016-04-01</div></label>
+                        <label id="label5">人数<div class="select">10人</div></label>
+                        <label id="label6">总耗时<div class="select">8天</div></label>
+                        <label id="label7">成交项<div class="select">10项</div></label>
+                        <button>搜索</button>
+                    </form>
+                    <section id="section2">
+                        <div>
+                            <div class="pointer left">&lt;</div>
+                            <div class="card">
+                                <p class="time">10:00am</p>
+                                <p class="money">1200</p>
+                            </div>
+                            <div class="card">
+                                <p class="time">10:00am</p>
+                                <p class="money">1200</p>
+                            </div>
+                            <div class="card">
+                                <p class="time">10:00am</p>
+                                <p class="money">1200</p>
+                            </div>
+                            <div class="card">
+                                <p class="time">10:00am</p>
+                                <p class="money">1200</p>
+                            </div>
+                            <div class="card">
+                                <p class="time">10:00am</p>
+                                <p class="money">1200</p>
+                            </div>
+                            <div class="card">
+                                <p class="time">10:00am</p>
+                                <p class="money">1200</p>
+                            </div>
+                            <div class="pointer left">&gt;</div>
+                        </div>
+                        <div class="right"></div>
+                    </section>
+                    <section id="section3" class="floatfix">
+                        <h4>2016年4月份统计</h4>
+                        <div class="card">
+                            <p class="number">133311</p>
+                            <p>成交量</p>
+                            <div class="block"></div>
+                        </div>
+                        <div class="card">
+                            <p class="number">133311</p>
+                            <p>成交量</p>
+                            <div class="block"></div>
+                        </div>
+                        <div class="card">
+                            <p class="number">133311</p>
+                            <p>成交量</p>
+                            <div class="block"></div>
+                        </div>
+                        <div class="card">
+                            <p class="number">133311</p>
+                            <p>成交量</p>
+                            <div class="block"></div>
+                        </div>
+                    </section>
+                    <section id="section4">
+                        <div class="card left">
+                            <h4>第一组项目</h4>
+                        </div>
+                        <div class="card right">
+                            <h4>第一组项目</h4>
+                        </div>
+                        <div class="card left">
+                            <h4>第一组项目</h4>
+                        </div>
+                        <div class="card right">
+                            <h4>第一组项目</h4>
+                        </div>
+                    </section>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

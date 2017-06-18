@@ -2,7 +2,7 @@
 * @Author: Thea Ao
 * @Date:   2017-06-16 13:37:17
 * @Last Modified by:   Thea Ao
-* @Last Modified time: 2017-06-18 10:30:40
+* @Last Modified time: 2017-06-18 12:02:45
 */
 $headerBg: #2189bf; 
 $mainBg: #eeeeed;
@@ -73,7 +73,7 @@ $orange: #ec6500;
 
 body {
     margin: 0;
-    background-color: $asideBg;
+    background-color: $lighterGrey;
     font-size: 12px;
 
     .left {
@@ -82,8 +82,13 @@ body {
     .right {
         float: right;
     }
-    .floatfix {
-        overflow: auto;
+    .floatfix::after {
+        content: "";
+        display: block;
+        height: 0;
+        margin-top: 0;
+        visibility: hidden;
+        clear: both;
     }
 }
 
@@ -130,12 +135,14 @@ header.main-header {
 .wrapper {
     margin: auto;
     width: 1280px;
+    overflow: hidden;
     //height: 100%;
 }
 main{
     @include block(1020px);
     background-color: $mainBg;
     padding-bottom: 20px;
+    margin-left: 260px;
 
     section {
         margin: 10px 0;
@@ -177,7 +184,7 @@ main{
 
         #section2 {
             @include block(100%);
-            margin-bottom: 10px;
+            margin-bottom: -100px;
 
             .card {
                 @include block(110px, 90px);
@@ -262,7 +269,8 @@ main{
 aside {
     @include block(260px,100%);
     background-color: $asideBg;
-    padding: 25px 0;
+    padding: 25px 0 3000px;
+    margin-bottom: -3000px;
     color: $asideFontColor;
 
     .basic-info {

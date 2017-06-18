@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>任务十一：移动web页面布局实现</title>
+        <link rel="stylesheet" href="css/task11.css">
+    </head>
+    <body>
+        <header>
+            <div class="back">&lt; 返回</div>
+            <h1>这位是标题</h1>
+        </header>
+        <nav>
+            <input type="radio" name="navi" id="navi1">
+            <input type="radio" name="navi" id="navi2">
+            <input type="radio" name="navi" id="navi3">
+            <input type="radio" name="navi" id="navi4">
+            <input type="radio" name="navi" id="navi5">
+            <ul>
+                <li id="tab1"><label for="navi1">导航</label></li>
+                <li id="tab2"><label for="navi2">导航</label></li>
+                <li id="tab3"><label for="navi3">导航</label></li>
+                <li id="tab4"><label for="navi4">导航</label></li>
+                <li id="tab5"><label for="navi5">导航</label></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="banner"></section>
+            <section id="tags">
+                <ul>
+                    <li><a href="#">
+                            <img src="images/tag.png" alt="标签图标">
+                            <p>标签</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/tag.png" alt="标签图标">
+                            <p>标签</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/tag.png" alt="标签图标">
+                            <p>标签</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/tag.png" alt="标签图标">
+                            <p>标签</p>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/tag.png" alt="标签图标">
+                            <p>标签</p>
+                        </a></li>
+                </ul>
+            </section>
+            <section id="section1">
+                <article>
+                    <img src="images/pic1.png" alt="分栏图片">
+                    <h2>分栏</h2>
+                    <p>分栏小标题</p>
+                </article>
+                <article>
+                    <img src="images/pic2.png" alt="分栏图片">
+                    <h2>分栏</h2>
+                    <p>分栏小标题</p>
+                </article>
+                <article>
+                    <img src="images/pic3.png" alt="分栏图片">
+                    <h2>分栏</h2>
+                    <p>分栏小标题</p>
+                </article>
+            </section>
+            <section id="section2" class="module">
+                <h2>模块一</h2>
+                <div class="content">
+                    <img src="images/pic4.png" alt="小熊头像" class="left">
+                    <div class="right">
+                        <p class="left">这是文案</p>
+                        <p class="right">这是文案</p>
+                        <p class="left">这是文案</p>
+                        <p class="right">这是文案</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/pic4.png" alt="小熊头像" class="left">
+                    <div class="right">
+                        <p class="left">这是文案</p>
+                        <p class="right">这是文案</p>
+                        <p class="left">这是文案</p>
+                        <p class="right">这是文案</p>
+                    </div>
+                </div>
+            </section>
+            <section id="section3" class="module">
+                <h2>模块二</h2>
+                <div class="content">
+                    <img src="images/pic4.png" alt="小熊头像" class="left">
+                    <div class="right">
+                        <p class="left">这是文案</p>
+                        <p class="right">这是文案</p>
+                        <p class="left">这是文案</p>
+                        <p class="right">这是文案</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/pic4.png" alt="小熊头像" class="left">
+                    <div class="right">
+                        <p class="left">这是文案</p>
+                        <p class="right">这是文案</p>
+                        <p class="left">这是文案</p>
+                        <p class="right">这是文案</p>
+                    </div>
+                </div>
+            </section>
+            <section id="section4">
+                <article class="floatfix">
+                    <img src="images/pic5.png" alt="小熊" class="left">
+                    <div class="left">
+                        <h2>文章标题</h2>
+                        <small>文章来源 7分钟前</small>
+                    </div>                        
+                </article>
+                <article class="floatfix">
+                    <img src="images/pic5.png" alt="小熊" class="left">
+                    <h2>文章标题</h2>
+                    <small>文章来源 7分钟前</small>
+                </article>
+                <article class="floatfix">
+                    <h2>这也是文章标题</h2>
+                    <figure>
+                        <img src="images/pic5.png" alt="小熊" class="left">
+                        <img src="images/pic5.png" alt="小熊" class="left">
+                        <img src="images/pic5.png" alt="小熊" class="left">
+                    </figure>
+                    <small>文章来源 7分钟前</small>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>

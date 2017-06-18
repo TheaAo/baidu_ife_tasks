@@ -1,0 +1,180 @@
+/*
+* @Author: Thea Ao
+* @Date:   2017-06-18 17:05:45
+* @Last Modified by:   Thea Ao
+* @Last Modified time: 2017-06-18 19:34:36
+*/
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.floatfix::after {
+  content: "";
+  height: 0;
+  clear: both;
+  display: block;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-bottom: 40px;
+  font-family: "Helvetic Neue", Helvetic, STHeiTi, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  color: white;
+  position: relative;
+  background-color: #91d4da;
+}
+header .back {
+  position: absolute;
+  line-height: 40px;
+  top: 0;
+  left: 0;
+  padding-left: 3%;
+}
+header h1 {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+nav ul {
+  list-style: none outside;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: white;
+}
+nav ul li {
+  float: left;
+  width: 20%;
+}
+nav ul label {
+  display: block;
+  width: 100%;
+  padding: 10%;
+  color: black;
+}
+nav input {
+  display: none;
+}
+nav input#navi1:checked ~ ul #tab1, nav input#navi2:checked ~ ul #tab2,
+nav input#navi3:checked ~ ul #tab3, nav input#navi4:checked ~ ul #tab4,
+nav input#navi5:checked ~ ul #tab5 {
+  border-bottom: solid 3px #91d4da;
+}
+
+section {
+  background-color: white;
+}
+
+#banner {
+  height: 180px;
+  background-image: url(../images/banner.png);
+  background-size: cover;
+}
+
+#tags ul {
+  list-style: none outside;
+  margin: 0;
+  padding: 10px;
+  overflow: auto;
+  background-color: white;
+}
+#tags ul li {
+  float: left;
+  width: 20%;
+  border-bottom: solid 1px #f5f5f5;
+}
+#tags ul li a {
+  display: block;
+  height: 100%;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+}
+#tags ul li a p {
+  margin: 0;
+}
+
+#section1 {
+  display: flex;
+  padding: 10px;
+}
+#section1 article {
+  padding: 5px;
+  border-right: solid 1px #f5f5f5;
+  flex: 1;
+}
+
+section.module {
+  margin: 10px 0;
+  padding: 10px;
+}
+section.module h2 {
+  line-height: 40px;
+  border-bottom: solid 3px #f5f5f5;
+  margin: 0;
+  text-align: left;
+}
+section.module .content {
+  padding: 10px 0;
+  overflow: auto;
+}
+section.module .content img {
+  width: 25%;
+}
+section.module .content div {
+  width: 75%;
+  padding-left: 3%;
+}
+section.module .content div p {
+  width: 48%;
+  background-color: #f5f5f5;
+  line-height: 35px;
+  margin: 0 0 10px;
+}
+
+#section4 {
+  text-align: left;
+}
+#section4 article {
+  border-bottom: solid 3px #f5f5f5;
+  padding: 10px 3%;
+}
+#section4 article img {
+  width: 30%;
+  margin-right: 10px;
+}
+#section4 article h2 {
+  margin: 0 0 20px;
+}
+#section4 article small {
+  color: #aaaaaa;
+}
+#section4 article figure {
+  margin: -10px 0 0 0;
+}
+
+/*# sourceMappingURL=task11.css.map */

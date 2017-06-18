@@ -1,0 +1,124 @@
+/*
+* @Author: Thea Ao
+* @Date:   2017-06-18 21:03:42
+* @Last Modified by:   Thea Ao
+* @Last Modified time: 2017-06-18 22:47:40
+*/
+section {
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid 1px #fff;
+}
+table th {
+  background-color: #000;
+  color: white;
+}
+table tr:nth-of-type(2n+1) {
+  background-color: #aaa;
+}
+table tr:nth-of-type(2n) {
+  background-color: white;
+}
+table tr:nth-of-type(2), table tr:nth-of-type(3), table tr:nth-of-type(4) {
+  color: red;
+}
+
+input {
+  width: 100px;
+  transition: width 500ms;
+}
+input:focus {
+  width: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.slide-window {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.slide-window .slide-content {
+  width: 300%;
+  height: 100%;
+  overflow: auto;
+  animation: 6s linear infinite slide;
+}
+.slide-window .slide-content div {
+  width: 33.333333333%;
+  height: 100%;
+  float: left;
+}
+.slide-window .tabs {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.slide-window .tabs div {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  animation: 6s step-end infinite;
+}
+.slide-window .tabs #tab1 {
+  animation-name: tab_1;
+}
+.slide-window .tabs #tab2 {
+  animation-name: tab_2;
+}
+.slide-window .tabs #tab3 {
+  animation-name: tab_3;
+}
+
+@keyframes slide {
+  from, 30% {
+    margin-left: 0;
+  }
+  40%, 70% {
+    margin-left: -100%;
+  }
+  80%, to {
+    margin-left: -200%;
+  }
+}
+@keyframes tab_1 {
+  from {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  40%,to {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+@keyframes tab_2 {
+  from, 80%, to {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  40% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes tab_3 {
+  from, to {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  80% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+/*# sourceMappingURL=task12.css.map */

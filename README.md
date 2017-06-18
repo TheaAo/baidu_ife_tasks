@@ -73,6 +73,56 @@
 
 [笔记](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task7/README.md#笔记)
 
+### 任务八：响应式网格（栅格化）布局
+
+[题目](http://ife.baidu.com/course/detail/id/104)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task8.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task8)
+
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task8/README.md#笔记)
+
+### 任务九：使用HTML/CSS实现一个复杂页面
+
+[题目](http://ife.baidu.com/course/detail/id/113)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task9.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task9)
+
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task9/README.md#笔记)
+
+### 任务十：Flexbox 布局练习
+
+[题目](http://ife.baidu.com/course/detail/id/114)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task10.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task10)
+
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task10/README.md#笔记)
+
+### 任务十一：移动Web页面布局实践
+
+[题目](http://ife.baidu.com/course/detail/id/116)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task11.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task11)
+
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task11/README.md#笔记)
+
+### 任务十二：学习CSS 3的新特性
+
+[题目](http://ife.baidu.com/course/detail/id/117)
+
+[预览](https://theaao.github.io/baidu_ife_tasks/xiaowei_academy/task7/task12.html)
+
+[代码](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task12)
+
+[笔记](https://github.com/TheaAo/baidu_ife_tasks/tree/master/xiaowei_academy/task12/README.md#笔记)
+
 ## 斌斌学院
 
 ### 任务一：零基础JavaScript编码（一）

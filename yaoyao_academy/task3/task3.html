@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>任务三：联动</title>
+        <style>
+            main{
+                width: 100%;
+                padding: 20px;
+            }
+            label[for*=student]{
+                display: inline-block;
+                width: 200px;
+                height: 40px;
+                margin-bottom: 20px;
+            }
+            div{
+                display: none;
+            }
+            #student:checked~div#for-student,
+            #not-student:checked~div#for-not-student{
+                display: block;
+            }
+            select{
+                display: inline-block;
+                width: 200px;
+                height: 40px;
+                margin: 0 20px;
+                padding: 0 10px;
+                border-radius: 5px;
+            }
+            input[type=text]{
+                width: 400px;
+                height: 20px;
+                padding: 10px;
+                border-radius: 5px;
+                border: solid 1px #aaa;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <input type="radio" name="status" id="student" checked>
+            <label for="student">在校生</label>
+            <input type="radio" name="status" id="not-student">
+            <label for="not-student">非在校生</label>
+            <div id="for-student">
+                <label>学校</label>
+                <select name="city" id="city">
+                    <option value="0"  selected>北京</option>
+                    <option value="1">上海</option>
+                    <option value="2">南京</option>
+                    <option value="3">杭州</option>
+                </select>
+                <select name="university" id="university">
+                    <option>北京A大学</option>
+                    <option>北京B大学</option>
+                    <option>北京C大学</option>
+                </select>
+            </div>
+            <div id="for-not-student">
+                <label for="company">就业单位</label>
+                <input type="text" id="company">
+            </div>
+        </main>
+        <script>
+            var universities = [['北京A大学', '北京B大学', '北京C大学'],['上海A大学', '上海B大学', '上海C大学'],['南京A大学', '南京B大学', '南京C大学'],['杭州A大学', '杭州B大学', '杭州C大学']];
+            var cities = document.getElementById('city');
+
+            cities.addEventListener('change', addUniversity);
+
+            function addUniversity(event){
+                var index = event.target.value;
+                var univList = universities[index];
+                var university = document.getElementById('university');
+                var opt = ''
+
+                for(var i = 0; i < univList.length; i++){
+                    opt += '<option>' + univList[i] + '</option>';
+                }
+                university.innerHTML = opt;
+            }
+        </script>
+    </body>
+</html>

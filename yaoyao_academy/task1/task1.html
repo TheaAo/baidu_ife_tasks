@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>任务一：单个表单项的检验</title>
+    <style>
+        body {
+            padding: 20px;
+        }
+        .input-item>* {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .input-text {
+            margin: 0 20px;
+        }
+        input {
+            border-radius: 5px;
+            border: solid 1px #aaa;
+        }
+        small {
+            color: #aaaaaa;
+        }
+        button {
+            border-radius: 5px;
+            border: none;
+            background-color: #55e;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="input-item"> 
+            <label for="name">名称</label>
+            <div class="input-text">
+                <input type="text" name="name" id="name"><br>
+                <small class="attention">必填，长度为4~16个字符</small>
+            </div>
+            <button id="check">验证</button>
+        </div>
+        <script>
+            var btnCheck = document.getElementById('check');
+            var input = document.getElementById('name');
+            var attention = document.querySelector('.attention');
+
+            btnCheck.addEventListener('click',checkInput);
+
+            function checkInput(){
+                var value = input.value;
+                var len = 0;
+                if(value != ''){
+                    for(var i = 0; i < value.length; i++){
+                        if(value.charCodeAt(i) > 255){
+                            len += 2;
+                        }else {
+                            len++;
+                        }
+                    }
+                }else{
+                    attention.innerHTML = '姓名不能为空';
+                    attention.style.color = 'red';
+                    input.style.borderColor = 'red';
+                    return;
+                }
+                if (len >= 4 && len <= 16) {
+                    attention.innerHTML = '名称格式正确';
+                    attention.style.color = 'green';
+                    input.style.borderColor = 'green';
+                }else if(len < 4){
+                    attention.innerHTML = '长度太短';
+                    attention.style.color = 'red';
+                    input.style.borderColor = 'red';
+                }else{
+                    attention.innerHTML = '长度太长';
+                    attention.style.color = 'red';
+                    input.style.borderColor = 'red';
+                }
+                return;
+            }
+        </script>
+    </body>
+</html>
